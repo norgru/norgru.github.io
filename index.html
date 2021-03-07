@@ -62,8 +62,13 @@
                     <td>Salad</td>
                 </tr>
             </tbody>
-
         </table>
+
+        <!-- Time to make a form -->
+        <form action="process.php" method="POST"> <!-- attribute 'action' submits form to certain process.php form, could be a register form, 'method' attribute is going to be POST which adds data to database, 'GET' request does the same but can see form in URL.-->
+            <label>First name</label>
+            <input type="text" name="first-name">
+        </form>
 
         <div style="margin-top: 5px"></div>
         
