@@ -64,10 +64,18 @@
             </tbody>
         </table>
 
+        <br> <!-- line break -->
+        <hr> <!-- horizontal rule -->
+        <br>
+
         <!-- Time to make a form -->
         <form action="process.php" method="POST"> <!-- attribute 'action' submits form to certain process.php form, could be a register form, 'method' attribute is going to be POST which adds data to database, 'GET' request does the same but can see form in URL.-->
             <label>First name</label>
-            <input type="text" name="first-name">
+            <input type="text" name="firstName"> <!--name here has to be whatever process.php needs, get it?-->
+
+            <label>Last name</label>
+            <input type="process.php" name="lastName">
+
         </form>
 
         <div style="margin-top: 5px"></div>
