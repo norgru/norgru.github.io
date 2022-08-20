@@ -1,0 +1,14 @@
+*,*:before, *:after {
+
+    box-sizing: border-box ; 
+    padding: 0 ;
+    margin: 0 ;  
+    
+}
+
+#smile {
+    position: fixed; /* Floating above */
+    transition: transform 0.23s; /* Sticking effect */
+    pointer-events: none; /* Allow clicking trough the div */
+  }
+  button {cursor: pointer}
